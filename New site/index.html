@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Dan HJ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="seo-and-web.png">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="https://github.com/LondanHJ" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Code </a>
+    <a href="https://medium.com/me/stories/drafts" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Writing </a>
+    <a href="https://www.linkedin.com/in/daniel-hatton-johnson-a1a258b4/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Résumé </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="smallNav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="https://github.com/LondanHJ" target="_blank" class="w3-bar-item w3-button w3-padding-large">Code </a>
+    <a href="https://medium.com/me/stories/drafts" target="_blank" class="w3-bar-item w3-button w3-padding-large">Writing </a>
+    <a href="https://www.linkedin.com/in/daniel-hatton-johnson-a1a258b4/" target="_blank" class="w3-bar-item w3-button w3-padding-large">Résumé </a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">DanHJ</h1>
+  <p class="w3-xlarge">Welcome, here you can find my recent code projects on Githib,</p>
+    <p class="w3-xlarge">writing on Medium and up to date CV on LinkedIn</p>
+</header>
+
+<!-- First Grid: Resent -->
+<div class="w3-panel w3-text-grey">
+  <h4>MOST RECENT WORK:</h4>
+</div>
+<div class="w3-row">
+  <div class="w3-half w3-container">
+    <a href="https://github.com/LondanHJ" target="_blank">
+      <img src="Github.png" style="width:100%">
+    </a>
+  </div>
+<div class="w3-half w3-container">
+  <a href="https://medium.com/me/stories/drafts" target="_blank">
+    <img src="Medium logo.png" style="width:100%">
+  </a>
+</div>
+</div>
+
+<div class="w3-container w3-white w3-center w3-opacity w3-padding-64">
+  <a href="https://www.linkedin.com/in/daniel-hatton-johnson-a1a258b4/" target="_blank">
+    <img src="Linkedin.png" style="width:50%">
+  </a>
+</div>
+
+<!-- Footer -->
+<footer class="w3-bar w3-red w3-padding-32 w3-center">
+ <p>email: daniel[at]danhj.com</p>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("smallNav");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135444217-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135444217-1');
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '202473587002853');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=202473587002853&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+</body>
+</html>
