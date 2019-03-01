@@ -12,6 +12,9 @@ Octocat logo courtesy of github.com
 Medium Logo from medium.com
 Linkedin Logo from linkeidn.com
 
+404 page template adapted from Colorlib
+https://colorlib.com/etc/404/colorlib-error-404-10/
+
 Page speed 97/100 with Facebook Pixel and Google Analytics installed
 Page speed without the above 100/100
 Reference - https://developers.google.com/speed/pagespeed/insights/
